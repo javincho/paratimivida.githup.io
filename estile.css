@@ -1,0 +1,58 @@
+*{
+    margin: 0;
+}
+ .contenedor{
+   
+    
+    width: 100vw;
+    height: 100vw;
+    text-align: center;
+ }
+ 
+ p{
+    font-size: xx-large;
+    padding: 5%;
+ }
+
+  button{
+    font-size: xx-large;
+    padding: 0.40em;
+   
+  }
+
+  #yesBtn{
+    transform: translate(-100%,0);
+  }
+
+  #noBtn{
+    position: absolute;
+  }
+
+  body{
+    background-image: linear-gradient(135deg,#6c008d, #432a50, #431e55, #704b8f86, #275c3d, #225e1d, #172b01 );
+    background-size: 500%;
+    animation: fanimado 60s infinite;
+ }
+ @keyframes animat {
+    0% {
+        transform: scale(0);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+@keyframes fanimado{
+    0%{
+        background-image: 0% 50%;
+    }
+    50%{
+        background-position: 100% 50%;
+    }
+    100%{
+        background-position: 0% 50%;
+    }
+
+}
+
